@@ -13,3 +13,10 @@
 1. Clone the repostory: git clone <repository_url> cd MiniProject_OS
 2. Make all scripts executable: chmod +x *.sh
 3. Run the program: ./main.sh
+
+#### Group 5:
+- Ory Chanraksa
+- Sao Visal
+- Kong Visal
+- Hong Layeang
+- Eang Haysan
