@@ -1,43 +1,38 @@
 # Shell Scripting Project
 
 ## Overview
-This Shell Scripting Project is designed to automate file and directory management tasks. It provides functionalities such as listing files, creating backups, counting files, displaying disk usage, searching for files, compressing files, and maintaining a log of all user actions.
+This project is a simple script to help manage files and directories. It can list files, create backups, count files, check disk usage, search for files, compress files, and keep a log of everything you do.
 
 ## Features
 
-1. **List Files and Sub-directories**  
-   - Displays detailed information about all files and sub-directories within a given directory.
-   - Can also provide details about a specific file.
+1. **List Files and Folders**  
+   - Shows details of all files and subfolders in a directory.  
+   - Can also display info about a single file.
 
 2. **Create Backups**  
-   - Allows users to create backups of individual files or entire directories.
-   - Prompts the user to enter the source file/directory and the destination for the backup.
+   - Lets you back up files or whole directories.  
+   - Asks where the source file/folder is and where you want to save the backup.
 
 3. **Count Files in a Directory**  
-   - Counts the number of files within a specified directory.
-   
-4. **Display Disk Usage**  
-   - Shows the disk space used by a specified directory.
+   - Tells you how many files are in a given folder.
+
+4. **Check Disk Usage**  
+   - Shows how much space a folder is using.
 
 5. **Search for Files**  
-   - Allows users to search for files based on their name or extension within a given directory.
+   - Helps find files by name or extension in a given directory.
 
-6. **Compress Files or Directories**  
-   - Enables users to compress files or directories into an archive for efficient storage.
-   - Supports `.zip` format for compression.
+6. **Compress Files or Folders**  
+   - Lets you compress files or directories into a `.zip` file for easier storage.
 
-7. **Log File Management**  
-   - Records all actions performed by users in a log file named `script.log`.
-   - The log file is stored in the same directory where the script is executed.
+7. **Log Actions**  
+   - Keeps track of all actions in a `script.log` file in the same directory as the script.
 
-## Usage
-- Run the script in a terminal by go to the directory and run this script "./script.sh".
-- Follow the on-screen prompts to enter required information.
-- The script performs the requested operation and logs the action.
-
-## Requirements
-- A Linux-based operating system with Bash shell.
-- Required utilities: `tar`, `zip`, `du`, `find`.
+## How to Use
+- Open a terminal, go to the script’s directory, and run `./script.sh`.
+- Follow the instructions on the screen.
+- The script does the task and logs the action.
 
 ## Log File
-All user actions are recorded in `script.log` to maintain a history of performed operations.
+Everything you do is recorded in `script.log` so you can track what happened.
+
