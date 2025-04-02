@@ -1,18 +1,1 @@
-[Mon, Mar 24, 2025 11:59:08 AM] Listed files in: testing_folder
-[Mon, Mar 24, 2025 12:00:47 PM] Listed files in: testing_folder
-[Mon, Mar 24, 2025 12:01:10 PM] Counted 4 files in testing_folder
-[Mon, Mar 24, 2025 12:01:22 PM] Checked disk usage of testing_folder
-[Mon, Mar 24, 2025 12:02:23 PM] Searched for text.txt in testing_folder
-[Mon, Mar 24, 2025  1:00:55 PM] Listed files in: testing_folder
-[Mon, Mar 24, 2025  1:01:32 PM] Counted 4 files in testing_folder
-[Mon, Mar 24, 2025  1:01:49 PM] Checked disk usage of testing_folder
-[Mon, Mar 24, 2025  1:02:12 PM] Searched for text.txt in testing_folder
-[Mon, Mar 24, 2025  1:02:48 PM] Searched for .sh in testing_folder
-[Mon, Mar 24, 2025  1:03:07 PM] Searched for .txt in testing_folder
-[Tue, Apr  1, 2025 11:30:18 AM] Listed files in: testing_folder
-[Tue, Apr  1, 2025 11:30:54 AM] Backed up testing_folder to testing_folder2
-[Tue, Apr  1, 2025 11:31:17 AM] Counted 4 files in testing_folder
-[Tue, Apr  1, 2025 11:31:31 AM] Checked disk usage of testing_folder
-[Tue, Apr  1, 2025 11:31:55 AM] Searched for text.txt in testing_folder
-[Tue, Apr  1, 2025 11:33:24 AM] Searched for text.txt in testing_folder
-[Tue, Apr  1, 2025 11:33:48 AM] Compressed testing_folder to compresses.tar.gz
+[Wed Apr  2 19:23:43 +07 2025] Listed files in: testing_folder
