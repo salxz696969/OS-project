@@ -7,5 +7,5 @@
 
 LOG_FILE="$(pwd)/script.log"
 log_action() {
-    echo "[$(date)] $1" | tee -a "$LOG_FILE"
+    echo -e "\nLOG: [$(date)] $1" | tee -a "$LOG_FILE"
 }

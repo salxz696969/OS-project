@@ -9,7 +9,7 @@ list_files() {
     if [ -e "$path" ]; then
         echo -e "\n==== ** Listing files in: $path ** ====\n"
         ls -lah "$path"  # List files with detailed information
-        echo -e "\n==== ** End of file list ** ====\n"
+        echo -e "\n============ ** End of file list ** ============\n"
         
         # Log the action
         log_action "Listed files in: $path"

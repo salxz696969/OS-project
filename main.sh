@@ -34,7 +34,8 @@ while true; do
         7) log_action "Exited the script"; exit 0 ;;
         *) echo "\nInvalid option.\n" ;;
     esac
-
+    
+    echo -e "\n"
     read -n 1 -s -r -p "Press any key to continue..."
     echo -e "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" # to simulate the terminal clearing while keeping history
     echo

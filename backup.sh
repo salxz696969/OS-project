@@ -3,6 +3,7 @@
 # === Function to backup files or directories ===
 backup_files() {
     # Prompt user for source file/directory
+    echo -e "\n"
     read -r -p "Enter the file or directory to backup: " source
 
     # Prompt user for backup destination
@@ -12,12 +13,12 @@ backup_files() {
     if [ -e "$source" ]; then
         # Perform the backup
         cp -r "$source" "$destination"
-        # Log the action (assuming log_action is defined elsewhere)
+        # Log the action
         log_action "Backed up $source to $destination"
-        echo "*** Backup completed successfully! ***"
+        echo -e "\n*** Backup completed successfully! ***"
     else
         # Notify user if the source does not exist
-        echo "=== Error: Source does not exist. ==="
+        echo -e "\n=== Error: Source does not exist. ==="
     fi
 }
 
