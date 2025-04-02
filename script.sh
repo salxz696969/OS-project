@@ -10,6 +10,9 @@ source ./log.sh
 
 
 while true; do
+    echo -e "\n========================================"
+    echo "           ** Main Menu **"
+    echo "========================================"
     echo -e "\nSelect an option:"
     echo "1. List files"
     echo "2. Backup files"
@@ -18,6 +21,7 @@ while true; do
     echo "5. Search for a file"
     echo "6. Compress files"
     echo "7. Exit"
+    echo "========================================"
     read -r -p "Enter your choice: " choice
 
     case $choice in
