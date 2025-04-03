@@ -1,0 +1,18 @@
+
+LOG: [Thu  3 Apr 2025 14:30:47 +07] Compressed backup.sh to compressed.zip
+
+LOG: [Thu  3 Apr 2025 14:45:27 +07] Listed files in: ../
+
+LOG: [Thu  3 Apr 2025 14:45:36 +07] Listed files in: ../../../../../
+
+LOG: [Thu  3 Apr 2025 15:03:02 +07] Listed files in: test
+
+LOG: [Thu  3 Apr 2025 15:03:36 +07] Backed up test to backup
+
+LOG: [Thu  3 Apr 2025 15:04:39 +07] Counted 7 files in test
+
+LOG: [Thu  3 Apr 2025 15:05:05 +07] Checked disk usage of test (4.7M	test)
+
+LOG: [Thu  3 Apr 2025 15:05:31 +07] Searched for vid.mp4 in test
+
+LOG: [Thu  3 Apr 2025 15:05:48 +07] Compressed test to compressed.zip
